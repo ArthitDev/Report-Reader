@@ -1,0 +1,41 @@
+@using FastReport.Web
+
+@{
+    ViewData["Title"] = "View Report";
+    var webReport = (WebReport)ViewBag.WebReport;
+}
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-11 report-container">
+            <div class="report-content">
+                @await webReport.Render()
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .report-container {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        background-color: white;
+        margin-top: 20px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .report-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    iframe {
+        margin: 0 auto;
+        display: block;
+    }
+</style>
