@@ -27,11 +27,11 @@ namespace Report_View.Controllers
 
         [HttpPost]
         [Route("Home/ViewReport")]
-        public async Task<IActionResult> ViewReport(IFormFile reportFile, string reportCode)
+        public async Task<IActionResult> ViewReport(IFormFile reportFile, string code)
         {
             try
             {
-                if (string.IsNullOrEmpty(reportCode))
+                if (string.IsNullOrEmpty(code))
                 {
                     throw new Exception("Report code is required");
                 }
@@ -61,6 +61,8 @@ namespace Report_View.Controllers
                 webReport.Report.Dictionary.Connections.Clear();
                 webReport.Report.Dictionary.Connections.Add(postgresConn);
 
+                webReport.Report.SetParameterValue("code", code);
+                webReport.Report.Refresh();
                 webReport.Report.Prepare();
 
                 ViewBag.WebReport = webReport;

@@ -50,12 +50,8 @@ F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\FastReport.OpenSource.Web.d
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
-F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
-F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\Newtonsoft.Json.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\System.Drawing.Common.dll
-F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\System.Security.Permissions.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -95,10 +91,10 @@ F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.V
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\runtimes\any\lib\netcoreapp3.0\FastReport.Compat.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\FastReport.Compat.dll
 F:\.net-api\Report-View\Report-View\bin\Debug\net6.0\FastReport.DataVisualization.dll
 F:\.net-api\Report-View\Report-View\obj\Debug\net6.0\Report-View.MvcApplicationPartsAssemblyInfo.cs
+F:\.net-api\Report-View\Report-View\obj\Debug\net6.0\Report-View.sourcelink.json

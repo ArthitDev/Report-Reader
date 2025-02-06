@@ -52,11 +52,11 @@
           "dependencies": {
             "FastReport.DataVisualization": {
               "target": "Package",
-              "version": "[2023.3.0, )"
+              "version": "[2025.1.14, )"
             },
             "FastReport.OpenSource": {
               "target": "Package",
-              "version": "[2023.3.0, )"
+              "version": "[2025.1.0, )"
             },
             "FastReport.OpenSource.Data.Postgres": {
               "target": "Package",
@@ -64,11 +64,11 @@
             },
             "FastReport.OpenSource.Export.PdfSimple": {
               "target": "Package",
-              "version": "[2023.2.0, )"
+              "version": "[2025.1.0, )"
             },
             "FastReport.OpenSource.Web": {
               "target": "Package",
-              "version": "[2023.2.0, )"
+              "version": "[2025.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
